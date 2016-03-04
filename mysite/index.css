@@ -1,4 +1,6 @@
-
+@media screen and (max-device-width: 480px) {
+h1 { font-size: 1.2em;
+}
 h1
 {
 	text-align: center;
