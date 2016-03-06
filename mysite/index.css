@@ -3,28 +3,39 @@ h1
 {
 	color: green;
 	text-align: center;
-	font-size: 45px;
+	font-size: 40px;
 	font-family: cinzel;
 }
 
+h2{
+	color: green;
+	text-align: left;
+	text-indent: -4px;
+	font-size: 25px;
+	font-family: cinzel;
+}
+.face {
+	width:70%;
+}
+
 .row{
-	width:100%;
+	width:120%;
 	float:left;
-	padding: 10px;
+	padding: 20px;
 }
 
 .col-sm-4{
 	width:40%;
 	border:10px;
+	text-align: left-side;
 	text-indent: 50px;
+	line-height: 30px;
 	font-size: 20px;
 	font-family: sans-serif;
 	float:left;
 }
 
-img{
-	size: 50%;
-}
+
 
 .cindent
 {
@@ -32,15 +43,18 @@ img{
 }
 
 article{
+	width: 100%;
 	border: 3px solid navy;
 	margin: 30px;	
 	background-color: rgba(180, 150, 255, 0.5);
 	font-size: 25px;
 	font-family: sans-serif;
-	padding: 20px 40px 20px 20px;
+	padding-left:40px;
+	padding-right: 40px;
+	text-align: justify;
 }
 a{
-	font-size: 30px;
+	font-size: 20px;
 	color: white;
 }
 li{
@@ -48,23 +62,18 @@ li{
 	padding: 0px 50px 0px 50px;
 	background: grey;
 	border: 1px solid black;
-	margin: 30px;	
+	margin: 20px;	
 	padding: 20px 40px 20px 20px;
 	}
 img{
 	
-	border-radius: 80px;
+	border-radius: 50px;
+	border: 1px solid black;
 }
 	}
 @vmedia screen and (max-device-width: 480px) {
-h1 { fdont-size: 1.2em;
+h1 { font-size: 1.2em;
 }
-
-
-
-
-
-
 }
 
 
