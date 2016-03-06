@@ -16,6 +16,8 @@ h2{
 }
 .face {
 	width:70%;
+	position: relative;
+	left: 80px;
 }
 
 .row{
@@ -26,6 +28,8 @@ h2{
 
 .col-sm-4{
 	width:40%;
+	position: relative;
+	left:10px;
 	border:10px;
 	text-align: left-side;
 	text-indent: 50px;
@@ -33,13 +37,6 @@ h2{
 	font-size: 20px;
 	font-family: sans-serif;
 	float:left;
-}
-
-
-
-.cindent
-{
-	#text-indent: 100px;
 }
 
 article{
@@ -70,7 +67,27 @@ img{
 	border-radius: 50px;
 	border: 1px solid black;
 }
-	}
+.tricolor{
+	width: 30%;
+	position: relative;
+	left: 500px;
+}
+#social-buttons button {
+	color: green;
+	font-size: 18px;
+	margin: 10px;
+}
+p{
+	font-family: sans-serif;
+	font-size: 20px;
+	position: relative;
+	left: 60px;
+}
+.social{
+	position: relative;
+	left: 50px;
+}
+	
 @vmedia screen and (max-device-width: 480px) {
 h1 { font-size: 1.2em;
 }
