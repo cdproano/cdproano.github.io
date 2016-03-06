@@ -46,9 +46,11 @@ article{
 	background-color: rgba(180, 150, 255, 0.5);
 	font-size: 25px;
 	font-family: sans-serif;
+	line-height: 40px;	
 	padding-left:40px;
 	padding-right: 40px;
 	text-align: justify;
+	
 }
 a{
 	font-size: 20px;
@@ -62,6 +64,10 @@ li{
 	margin: 20px;	
 	padding: 20px 40px 20px 20px;
 	}
+.list1{
+	
+	
+}
 img{
 	
 	border-radius: 50px;
@@ -71,6 +77,16 @@ img{
 	width: 30%;
 	position: relative;
 	left: 500px;
+}
+.BT1{
+	width: 35%;
+	position: relative;
+	left: 50px;
+}
+.team{
+	width: 35%;
+	position: relative;
+	left: 50px;
 }
 #social-buttons button {
 	color: green;
@@ -87,11 +103,11 @@ p{
 	position: relative;
 	left: 50px;
 }
-	
+
+}
 @vmedia screen and (max-device-width: 480px) {
 h1 { font-size: 1.2em;
 }
-.col-sm-4{ font-size: 1.2 em;
 }
 
 
