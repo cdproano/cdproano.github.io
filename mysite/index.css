@@ -91,6 +91,7 @@ p{
 @vmedia screen and (max-device-width: 480px) {
 h1 { font-size: 1.2em;
 }
+.col-sm-4{ font-size: 1.2 em;
 }
 
 
