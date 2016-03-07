@@ -40,7 +40,7 @@ h2{
 }
 
 article{
-	width: 100%;
+	width: 75%;
 	border: 3px solid navy;
 	margin: 30px;	
 	background-color: rgba(180, 150, 255, 0.5);
@@ -56,7 +56,7 @@ a{
 	font-size: 20px;
 	color: white;
 }
-li{
+ul li{
 	display: inline;
 	padding: 0px 50px 0px 50px;
 	background: grey;
@@ -64,8 +64,8 @@ li{
 	margin: 20px;	
 	padding: 20px 40px 20px 20px;
 	}
-.list1{
-	
+.list{
+	display: vertical-align;
 	
 }
 img{
